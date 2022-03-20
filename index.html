@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>img & links</title>
+</head>
+<style>
+    .header {
+        background-color: #eee;
+    }
+    .navigation {
+        border: 2px solid #eee;
+    }
+</style>
+
+<body>
+    <div class="header">
+   <h1>Alex</h1>
+    <img src="img/alex.png" alt="alex">
+    <hr>
+    </div>
+
+    <nav class="navigation">
+        <a href="https://instagram.com/alex_s_novikov" target="_blank">insagram</a>
+        <a href="https://vk.com/mapdaper" target="_blank">vk</a>
+        <a href="https://github.com/Alex-s-Novikov" target="_blank">github</a>
+    </nav>
+ 
+<div>
+    <ul>
+        <li>Java Script</li>
+        <li>Футбол</li>
+        <li>Книги</li>
+    </ul>
+</div>
+
+<div>
+    <table border="1px">
+        <thead>
+            <tr>
+                <th>Название</th>
+                <th>Должность</th>
+                <th>Год</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <!--строка-->
+                <td>АО "БДД"</td>
+                <!--ячейка-->
+                <td>специалист</td>
+                <td>2007-2017</td>
+            </tr>
+            <tr>
+                <td>ГБУ "БДД"</td>
+                <td>специалист</td>
+                <td>2017 - н.в.</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<footer class="footer header">
+
+    <h1>Связаться со мной</h1>
+    <form>
+        <div>
+            <label for="name" >Ваше Имя</label>
+            <input type="text" id="name" placeholder = "Введите имя">
+        </div>
+        <br>
+        <div>
+            <label for="email">Ваш E-Mail</label>
+            <input type="email" id="email" placeholder = "Введите email">
+        </div>
+        <br>
+        <div>
+            <label for="message">Ваше сообщение</label>
+            <br>
+                <textarea name="message" id="message" cols="30" rows="5" placeholder = "Введите сообщение"></textarea>
+            
+        </div>
+        <br>
+        <div>
+            <label for="country">Ваш Город</label>
+            <select name="country" id="country">
+                <option value="kazan" selected>Казань</option>
+                <option value="moskow">Москва</option>
+                <option value="peterburg">С.Петербург</option>
+            </select>
+        </div>
+    <!-- <label for="radio">
+        <input type="radio" name="radio" id="">1
+        <input type="radio" name="radio" id="">2
+        <input type="radio" name="radio" id="">3
+    </label> -->
+        <button>Отправить</button>
+
+    </form>
+
+
+</footer>
+
+
+    
+</body>
+
+</html>
